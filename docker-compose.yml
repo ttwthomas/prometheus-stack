@@ -66,6 +66,7 @@ services:
     container_name: mongo-exporter
     environment:
       - MONGODB_URI=mongodb://admin:secret@mongo:27017
+    command: --collect-all
     ports:
       - "9216:9216"
     depends_on:
