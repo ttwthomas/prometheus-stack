@@ -5,7 +5,6 @@ services:
     environment:
       - GF_SERVER_ROOT_URL=%(protocol)s://%(domain)s/proxy/80/
       - GF_SERVER_ENFORCE_DOMAIN=false
-      - GF_SERVER_DOMAIN=qu9la7fjx5.peperelab.com
       - GF_SERVER_SERVE_FROM_SUBPATH=true
     ports:
       - "3000:3000"  # Expose Grafana on host's port 3000 (optional if accessed via Nginx)
