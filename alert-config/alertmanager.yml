@@ -125,7 +125,7 @@ receivers:
 
 - name: 'discord'
   discord_configs:
-  - webhook_url: 'https://discord.com/api/webhooks/1341876222925344768/bX0gUagKinHQKTifGa30t7l8mC7R7w-jGXj1P7hQxR12xyyD8Qt94he99CfVwo-OILBa'
+  - webhook_url: 'https://discord.com/api/webhooks/xxxxxxxxxxxxx'
     title: "Alert from alert manager"
     # message: "cpu is high"
     username: "prometheus-bot"
